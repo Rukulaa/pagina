@@ -1,12 +1,14 @@
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
     background-color: white;
-    margin: 0;
 }
 
 /* COLUMNA ROSA */
 .sidebar {
+
     position: fixed;
+
     top: 0;
     left: 0;
 
@@ -18,8 +20,9 @@ body {
     display: flex;
     flex-direction: column;
 
-    padding-top: 40px;
-    gap: 20px;
+    padding-top: 30px;
+
+    gap: 15px;
 }
 
 /* BOTONES DEL MENU */
@@ -27,13 +30,15 @@ body {
 
     width: 180px;
 
-    padding: 15px;
+    margin-left: 20px;
 
-    background-color: white;
+    padding: 15px;
 
     border: none;
 
     border-radius: 10px;
+
+    background-color: white;
 
     color: #e84fa0;
 
@@ -42,13 +47,11 @@ body {
     cursor: pointer;
 
     text-align: left;
-
-    margin-left: 15px;
 }
 
-/* EFECTO AL PASAR EL MOUSE */
+/* EFECTO HOVER */
 .sidebar button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* CONTENIDO DERECHA */
@@ -57,8 +60,11 @@ body {
     margin-left: 220px;
 
     padding: 40px;
+}
 
-    text-align: center;
+/* TODAS LAS SECCIONES OCULTAS */
+.seccion {
+    display: none;
 }
 
 /* TITULOS */
@@ -90,14 +96,4 @@ p {
     font-size: 16px;
 
     margin: 10px;
-}
-
-/* HOVER BOTONES */
-.content button:hover {
-    opacity: 0.8;
-}
-
-/* SECCIONES OCULTAS */
-.seccion {
-    display: none;
 }
