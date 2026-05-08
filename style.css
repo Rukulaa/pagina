@@ -27,6 +27,7 @@ button {
 button:hover {
     background-color: #b3008f;
 }
+
 .sidebar {
     position: fixed;
     top: 0;
@@ -34,8 +35,17 @@ button:hover {
     width: 220px;
     height: 100vh;
     background-color: #b3008f;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .content {
     margin-left: 220px;
+}
+
+/* 👇 NUEVO */
+.seccion {
+    display: none;
 }
