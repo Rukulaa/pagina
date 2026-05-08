@@ -17,19 +17,27 @@
 
         <button onclick="saludar()">Click Hola</button>
         <button onclick="despedir()">Click Chau</button>
-        
-         <div id="alimentacion" class="seccion">
-        <h1>Alimentación</h1>
-        <p>Aquí va tu guía de alimentación</p>
-    </div>
+    
+        <script src="script.js"></script>
+</div>
+    <div class="sidebar">
 
-    <div id="aprendizaje" class="seccion">
-        <h1>Aprendizaje</h1>
-        <p>Aquí va tu sistema de estudio</p>
-    </div>
+    <button onclick="mostrarSeccion('alimentacion')">
+        Alimentación
+    </button>
+
+    <button onclick="mostrarSeccion('aprendizaje')">
+        Aprendizaje
+    </button>
+
+    <button onclick="mostrarSeccion('habitos')">
+        Hábitos
+    </button>
+
+    <button onclick="mostrarSeccion('skincare')">
+        Skincare
+    </button>
 
 </div>
-
-<script src="script.js"></script>
 </body>
 </html>
