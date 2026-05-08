@@ -1,51 +1,95 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f2f2f2;
-    margin-top: 100px;
+    background-color: white;
+    margin: 0;
 }
 
-h1 {
-    color: #333;
-}
-
-p {
-    color: #555;
-    font-size: 18px;
-}
-
-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #b3008f;
-    color: white;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #b3008f;
-}
-
+/* COLUMNA ROSA */
 .sidebar {
     position: fixed;
     top: 0;
     left: 0;
+
     width: 220px;
     height: 100vh;
-    background-color: #b3008f;
-    padding: 10px;
+
+    background-color: #e84fa0;
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
+    padding-top: 40px;
+    gap: 20px;
 }
 
+/* BOTONES DEL MENU */
+.sidebar button {
+
+    background: none;
+    border: none;
+
+    color: white;
+    font-size: 20px;
+
+    cursor: pointer;
+
+    text-align: left;
+
+    padding-left: 30px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+.sidebar button:hover {
+    opacity: 0.7;
+}
+
+/* CONTENIDO DERECHA */
 .content {
+
     margin-left: 220px;
+
+    padding: 40px;
+
+    text-align: center;
 }
 
-/* 👇 NUEVO */
+/* TITULOS */
+h1 {
+    color: black;
+}
+
+/* PARRAFOS */
+p {
+    color: #444;
+    font-size: 18px;
+}
+
+/* BOTONES NORMALES */
+.content button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: #e84fa0;
+
+    color: white;
+
+    cursor: pointer;
+
+    border-radius: 20px;
+
+    font-size: 16px;
+
+    margin: 10px;
+}
+
+/* HOVER BOTONES */
+.content button:hover {
+    opacity: 0.8;
+}
+
+/* SECCIONES OCULTAS */
 .seccion {
     display: none;
 }
