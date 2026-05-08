@@ -4,29 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-<div class="sidebar"></div>
 
+<!-- MENU ROSA -->
+<div class="sidebar">
+
+    <button onclick="mostrarSeccion('inicio')">
+        Inicio
+    </button>
+
+    <button onclick="mostrarSeccion('alimentacion')">
+        Alimentación
+    </button>
+
+    <button onclick="mostrarSeccion('aprendizaje')">
+        Aprendizaje
+    </button>
+
+    <button onclick="mostrarSeccion('habitos')">
+        Hábitos
+    </button>
+
+    <button onclick="mostrarSeccion('skincare')">
+        Skincare
+    </button>
+
+</div>
+
+<!-- CONTENIDO -->
 <div class="content">
+
+    <!-- INICIO -->
+    <div id="inicio" class="seccion">
+
         <h1>Hola, soy Rochi 👩‍💻</h1>
+
         <p>Esta es mi página con menú lateral</p>
 
         <button onclick="saludar()">Click Hola</button>
+
         <button onclick="despedir()">Click Chau</button>
-    
-        <script src="script.js"></script>
-<div id="alimentacion" class="seccion">
 
-    <h1>Alimentación</h1>
+    </div>
 
-    <p>
-        Acá escribís TODO el contenido que quieras.
-    </p>
+    <!-- ALIMENTACION -->
+    <div id="alimentacion" class="seccion">
+
+        <h1>Alimentación</h1>
+
+        <p>
+            Acá escribís TODO el contenido que quieras.
+        </p>
+
+    </div>
+
+    <!-- APRENDIZAJE -->
+    <div id="aprendizaje" class="seccion">
+
+        <h1>Aprendizaje</h1>
+
+        <p>
+            Acá va tu contenido de estudio.
+        </p>
+
+    </div>
+
+    <!-- HABITOS -->
+    <div id="habitos" class="seccion">
+
+        <h1>Hábitos</h1>
+
+        <p>
+            Acá van tus rutinas.
+        </p>
+
+    </div>
+
+    <!-- SKINCARE -->
+    <div id="skincare" class="seccion">
+
+        <h1>Skincare</h1>
+
+        <p>
+            Acá va tu rutina facial.
+        </p>
+
+    </div>
 
 </div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
