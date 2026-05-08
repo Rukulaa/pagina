@@ -27,3 +27,15 @@ button {
 button:hover {
     background-color: #b3008f;
 }
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background-color: #b3008f;
+}
+
+.content {
+    margin-left: 220px;
+}
